@@ -11,7 +11,7 @@ import SwiftUI
 struct sampleAppApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ContentView(isNight: true)
         }
     }
 }
